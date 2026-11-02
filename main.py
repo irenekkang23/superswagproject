@@ -199,7 +199,7 @@ while running:
     pygame.display.flip()
     clock.tick(60)
 
-#now just run the application
+pygame.quit()
 
 
 
