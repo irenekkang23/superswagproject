@@ -38,6 +38,7 @@ python.org/downloads/macos/ or python.org/downloads/windows/ to download the rel
    marimba middle.wav
    marimba low.wav
    The filenames **must match the code exactly, including the space before .wav in "**marimba high .wav****
+   Make sure the audio files (marimba high .wav, marimba middle.wav & marimba low. wav) have been downloaded as well.
 12. Open main.py, right click inside the editor and select Run.
 13. A separate window titled "The Sound of Art" will open.
 14. Hold the left mouse button and drag to start drawing and hear audio feedback. Make sure the volume is up!
