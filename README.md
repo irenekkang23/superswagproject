@@ -19,7 +19,7 @@ Users can draw while listening to live audio feedback that changes in response t
 2. Download or copy this repository. If downloading as a ZIP folder, you will need to extract the repository ZIP.
 3. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
 4. Select a **Python** interpreter for the project if asked.
-5. Install Pygame in PyCharm by writing:
+5. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
    python -m pip install pygame
 6. Make sure these audio files are in the same folder as main.py:
    marimba high .wav
