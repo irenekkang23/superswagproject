@@ -16,15 +16,13 @@ Users can draw while listening to live audio feedback that changes in response t
 
 **How To Setup and Run The Sound of Art**
 1. Install Python 3 and PyCharm on your computer. (Recommended: Python 3.12 or 3.13).
+2. python.org/downloads/macos/ or python.org/downloads/windows/ to download the relative Python installer.
 **Note: Do NOT use Python 3.14+ as Pygame does not support it and it will fail to install**
 **THESE INSTRUCTIONS ARE ONLY IF YOU DO NOT HAVE PYTHON 3.13, IF YOU DO, THEN GO STRAIGHT TO NO. 7**
 <img width="897" height="248" alt="image" src="https://github.com/user-attachments/assets/6000ba61-8a17-4bd2-bcd3-43db8cfe45ec" />
 
 <img width="618" height="365" alt="image" src="https://github.com/user-attachments/assets/d00a6194-7a02-4184-8b93-29f1ed84179c" />
 (simply rename the .venv to venv313)
-
-
-
 python.org/downloads/macos/ or python.org/downloads/windows/ to download the relative Python installer.
 3. Open PyCharm and go to your settings -> Project -> Python Interpreter.
 4. Click the dropdown menu next to interpreter path and select Add Interpreter -> Add Local Interpreter
