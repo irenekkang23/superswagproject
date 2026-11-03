@@ -32,7 +32,7 @@ python.org/downloads/macos/ or python.org/downloads/windows/ to download the rel
 8. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
 9. Select a **Python** interpreter for the project if asked.
 10. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
-   python -m pip install pygame
+   python -m pip install pygame (if you are installing Python 3.13, you may need to close the Terminal tab or refresh PyCharm)
 11. Make sure these audio files are in the same folder as main.py:
    marimba high .wav
    marimba middle.wav
