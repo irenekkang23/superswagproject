@@ -19,8 +19,9 @@ Users can draw while listening to live audio feedback that changes in response t
 **Note: Do NOT use Python 3.14+ as Pygame does not support it and it will fail to install**
 **THESE INSTRUCTIONS ARE ONLY IF YOU DO NOT HAVE PYTHON 3.13, IF YOU DO, THEN GO STRAIGHT TO NO. 7**
 <img width="897" height="248" alt="image" src="https://github.com/user-attachments/assets/6000ba61-8a17-4bd2-bcd3-43db8cfe45ec" />
+
 <img width="618" height="365" alt="image" src="https://github.com/user-attachments/assets/d00a6194-7a02-4184-8b93-29f1ed84179c" />
-<img width="618" height="365" alt="image" src="https://github.com/user-attachments/assets/3f9ecabc-39d3-45c0-a0bf-00e38d87a91d" />
+(simply rename the .venv to venv313)
 
 
 
