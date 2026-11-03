@@ -17,19 +17,25 @@ Users can draw while listening to live audio feedback that changes in response t
 **How To Setup and Run The Sound of Art**
 1. Install Python 3 and PyCharm on your computer. (Recommended: Python 3.12 or 3.13).
 **Note: Do NOT use Python 3.14+ as Pygame does not support it and it wil fail to install**
-3. Download or copy this repository. If downloading as a ZIP folder, you will need to extract the repository ZIP.
-4. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
-5. Select a **Python** interpreter for the project if asked.
-6. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
+**THESE INSTRUCTIONS ARE ONLY IF YOU DO NOT HAVE PYTHON 3.13, IF YOU DO, THEN GO STRAIGHT TO NO. 7**
+python.org/downloads/macos/ or python.org/downloads/windows/ to download the relative Python installer.
+3. Open PyCharm and go to your settings -> Project -> Python Interpreter.
+4. Click the dropdown menu next to interpreter path and select Add Interpreter -> Add Local Interpreter
+5. Select Virtualenv Environment -> Base Interpreter -> choose Python 3.13
+6. Click OK and open a new Terminal tab in PyCharm and write python -m pip install pygame. 
+7. Download or copy this repository. If downloading as a ZIP folder, you will need to extract the repository ZIP.
+8. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
+9. Select a **Python** interpreter for the project if asked.
+10. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
    python -m pip install pygame
-7. Make sure these audio files are in the same folder as main.py:
+11. Make sure these audio files are in the same folder as main.py:
    marimba high .wav
    marimba middle.wav
    marimba low.wav
    The filenames **must match the code exactly, including the space before .wav in "**marimba high .wav****
-8. Open main.py, right click inside the editor and select Run.
-9. A separate window titled "The Sound of Art" will open.
-10. Hold the left mouse button and drag to start drawing and hear audio feedback. Make sure the volume is up!
+12. Open main.py, right click inside the editor and select Run.
+13. A separate window titled "The Sound of Art" will open.
+14. Hold the left mouse button and drag to start drawing and hear audio feedback. Make sure the volume is up!
 
 **How To Use The Sound of Art Features**
   1. Pressing 1-6 on the keyboard will change brush colour:
