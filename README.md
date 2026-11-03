@@ -15,20 +15,21 @@ Users can draw while listening to live audio feedback that changes in response t
 - A small easter egg -> a small colour indicator at the top right of the screen - try changing colours and see what happens!
 
 **How To Setup and Run The Sound of Art**
-1. Install Python 3 and PyCharm on your computer.
-2. Download or copy this repository. If downloading as a ZIP folder, you will need to extract the repository ZIP.
-3. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
-4. Select a **Python** interpreter for the project if asked.
-5. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
+1. Install Python 3 and PyCharm on your computer. (Recommended: Python 3.12 or 3.13).
+**Note: Do NOT use Python 3.14+ as Pygame does not support it and it wil fail to install**
+3. Download or copy this repository. If downloading as a ZIP folder, you will need to extract the repository ZIP.
+4. Open PyCharm, select Open and choose this/paste this repository. (Open the extracted folder in PyCharm).
+5. Select a **Python** interpreter for the project if asked.
+6. Install Pygame in PyCharm by writing in the Terminal tab (bottom left of PyCharm):
    python -m pip install pygame
-6. Make sure these audio files are in the same folder as main.py:
+7. Make sure these audio files are in the same folder as main.py:
    marimba high .wav
    marimba middle.wav
    marimba low.wav
    The filenames **must match the code exactly, including the space before .wav in "**marimba high .wav****
-7. Open main.py, right click inside the editor and select Run.
-8. A separate window titled "The Sound of Art" will open.
-9. Hold the left mouse button and drag to start drawing and hear audio feedback. Make sure the volume is up!
+8. Open main.py, right click inside the editor and select Run.
+9. A separate window titled "The Sound of Art" will open.
+10. Hold the left mouse button and drag to start drawing and hear audio feedback. Make sure the volume is up!
 
 **How To Use The Sound of Art Features**
   1. Pressing 1-6 on the keyboard will change brush colour:
